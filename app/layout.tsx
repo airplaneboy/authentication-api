@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Auth API Project",
   description:
-    "A full-stack authentication system built with Next.js, MongoDB, JWT, and Tailwind CSS by Abdul Salam.",
+    "A full-stack authentication system built with Next.js, MongoDB, JWT, and Tailwind CSS.",
 };
 
 export default function RootLayout({
