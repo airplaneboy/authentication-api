@@ -40,7 +40,7 @@ export default function Home() {
             <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
               <Link
                 href="/signup"
-                className="rounded-xl px-7 py-3 font-bold text-white shadow-lg transition hover:-translate-y-1"
+                className="rounded-xl px-7 py-3 font-bold text-white shadow-lg cursor-pointer"
                 style={{
                   background: "var(--primary)",
                 }}
@@ -50,7 +50,7 @@ export default function Home() {
 
               <Link
                 href="/login"
-                className="rounded-xl border px-7 py-3 font-bold backdrop-blur transition hover:-translate-y-1"
+                className="rounded-xl border px-7 py-3 font-bold backdrop-blur cursor-pointer"
                 style={{
                   borderColor: "var(--card-border)",
                   color: "var(--foreground)",

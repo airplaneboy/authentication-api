@@ -160,7 +160,7 @@ export default function SignupPage() {
 
             <button
               disabled={loading}
-              className="w-full rounded-xl px-5 py-3 font-bold text-white shadow-lg transition hover:-translate-y-1 disabled:cursor-not-allowed disabled:opacity-60"
+              className="w-full rounded-xl px-5 py-3 font-bold text-white shadow-lg cursor-pointer disabled:cursor-not-allowed disabled:opacity-60"
               style={{
                 background: "var(--primary)",
               }}

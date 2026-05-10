@@ -93,7 +93,7 @@ export default function DashboardPage() {
 
             <button
               onClick={handleLogout}
-              className="rounded-xl px-5 py-3 font-bold text-white shadow-lg transition hover:-translate-y-1"
+              className="rounded-xl px-5 py-3 font-bold text-white shadow-lg cursor-pointer"
               style={{
                 background: "var(--primary)",
               }}
