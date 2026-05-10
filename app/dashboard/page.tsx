@@ -153,6 +153,8 @@ export default function DashboardPage() {
               </p>
               <p className="mt-2 text-lg font-bold capitalize">{user?.role}</p>
             </div>
+
+            <span className="text-[8px]">Favicon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
           </div>
 
        
