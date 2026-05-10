@@ -8,7 +8,7 @@ export default function Home() {
 
       <section className="mx-auto flex min-h-[85vh] max-w-5xl items-center justify-center">
         <div
-          className="w-full overflow-hidden rounded-[2rem] border p-8 shadow-2xl backdrop-blur-xl md:p-14"
+          className="w-full overflow-hidden rounded-4xl border p-8 shadow-2xl backdrop-blur-xl md:p-14"
           style={{
             background: "var(--card)",
             borderColor: "var(--card-border)",
