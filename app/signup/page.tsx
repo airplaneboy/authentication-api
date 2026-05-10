@@ -68,7 +68,7 @@ export default function SignupPage() {
       <section className="mx-auto flex min-h-[85vh] max-w-md items-center justify-center">
         <form
           onSubmit={handleSubmit}
-          className="w-full rounded-[2rem] border p-8 shadow-2xl backdrop-blur-xl"
+          className="w-full rounded-4xl border p-8 shadow-2xl backdrop-blur-xl"
           style={{
             background: "var(--card)",
             borderColor: "var(--card-border)",
