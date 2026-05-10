@@ -125,7 +125,7 @@ export default function DashboardPage() {
               <p className="text-sm font-semibold" style={{ color: "var(--muted)" }}>
                 Name
               </p>
-              <p className="mt-2 text-lg font-bold">{user?.name}</p>
+              <p className="mt-2 text-lg font-bold capitalize">{user?.name}</p>
             </div>
 
             <div
@@ -148,10 +148,10 @@ export default function DashboardPage() {
                 borderColor: "var(--card-border)",
               }}
             >
-              <p className="text-sm font-semibold" style={{ color: "var(--muted)" }}>
+              <p className="text-sm font-semibold " style={{ color: "var(--muted)" }}>
                 Role
               </p>
-              <p className="mt-2 text-lg font-bold">{user?.role}</p>
+              <p className="mt-2 text-lg font-bold capitalize">{user?.role}</p>
             </div>
           </div>
 
