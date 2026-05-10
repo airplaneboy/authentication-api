@@ -60,7 +60,7 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className="mt-12 grid gap-4 md:grid-cols-3">
+            {/* <div className="mt-12 grid gap-4 md:grid-cols-3">
               {[
                 "JWT Authentication",
                 "MongoDB Database",
@@ -77,7 +77,7 @@ export default function Home() {
                   {item}
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

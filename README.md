@@ -2,13 +2,9 @@
 
 A full-stack authentication project built with Next.js, MongoDB, JWT, and Tailwind CSS.
 
-## Live Demo
+## [Live Demo](https://authentication-api-taupe.vercel.app/)
 
-[-----]
-
-## GitHub Repository
-
-[----]
+## [GitHub Repository](https://github.com/airplaneboy/authentication-api)
 
 ## Features
 
