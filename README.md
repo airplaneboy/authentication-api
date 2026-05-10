@@ -32,7 +32,7 @@ A full-stack authentication project built with Next.js, MongoDB, JWT, and Tailwi
 ## API Routes
 
 | Method | Route | Description |
-|---|---|---|
+| --- | --- | --- |
 | POST | `/api/auth/signup` | Create a new user |
 | POST | `/api/auth/login` | Log in user |
 | GET | `/api/auth/me` | Get logged-in user |
