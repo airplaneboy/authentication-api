@@ -76,6 +76,7 @@ export async function POST(request: NextRequest) {
 
     return response;
   } catch (error) {
+      console.error("LOGIN ERROR:", error);
     const errorMessage = error instanceof Error ? error.message : "Unknown error";
 
     return NextResponse.json(

@@ -40,7 +40,7 @@ export default function LoginPage() {
       const data = await res.json();
 
       if (!res.ok) {
-        setMessage(data.message || "Login failed");
+        setMessage(data.error|| data.message || "Login failed");
         return;
       }
 
